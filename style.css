@@ -1,0 +1,91 @@
+.background {
+    background-image: url('../static/images/green-leaf-background.jpg');
+    background-size: cover;
+    z-index:-1;
+
+   
+}
+.other-pages {
+    background-image: radial-gradient(blanchedalmond, #ffe892) ;
+    display: inline-flex;
+}
+
+h1 {
+    color: #197419;
+    font-family: Verdana;
+    font-weight: 500;
+    z-index: 1;
+    font-size: 50px;
+    text-align: center;
+    line-height: 800px;  
+
+}
+
+.register {
+    font-weight: 100;
+    text-align: center;
+    line-height: -120px;
+}
+
+a {
+text-decoration: none;
+text-align: center;
+font-size: 30px;
+font-family: Verdana;
+color: #197419;
+line-height: -120px;
+}
+
+/* h3 {
+    margin-top: -120px;
+    text-align: center;
+    color: #197419;
+   
+} */
+
+input {
+    display: block;
+    margin-bottom: 15px;
+    ;
+}
+
+.parent {
+    display: flex;
+    text-align: center;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: 200px;
+    position: relative;
+    left: 25%;
+}
+/* 
+#or {
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 300px;
+} */
+
+.child {
+    border: black, 1px, solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    background-color: white;
+    height:fit-content;
+    width: 50%;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    flex: 50%;
+}
+
+#login-child {
+    position: relative;
+    top: 20%;
+}
+
+label {
+    text-align: left;
+}
